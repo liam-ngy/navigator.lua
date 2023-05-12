@@ -33,7 +33,7 @@ M.defaults = function()
 
     elixirls = {
       on_attach = on_attach,
-      filetypes = { 'elixir', 'eelixir' },
+      filetypes = { 'elixir', 'eelixir', 'eex', 'heex', 'ex', 'exs' },
       cmd = { 'elixir-ls' },
       message_level = vim.lsp.protocol.MessageType.error,
       settings = {

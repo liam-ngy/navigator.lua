@@ -139,8 +139,6 @@ local key_maps = {
     func = require('navigator.workspace').remove_workspace_folder,
     desc = 'remove_workspace_folder',
   },
-  { key = '<Space>ff', func = vim.lsp.buf.format, mode = 'n', desc = 'format' },
-  { key = '<Space>ff', func = vim.lsp.buf.range_formatting, mode = 'v', desc = 'range format' },
   {
     key = '<Space>gm',
     func = require('navigator.formatting').range_format,
